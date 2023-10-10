@@ -30,3 +30,6 @@ function validateEmail(email) {
 }
 
 
+document.getElementById("sendEmail").addEventListener("click", function() {
+    window.location.href = "mailto:Omaprofessionalservices@gmail.com";
+});
