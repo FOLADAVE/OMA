@@ -12,10 +12,9 @@
 <link rel="stylesheet" type="text/css" href="//www.cssfontstack.com/Century-Gothic" />
 </head>
 <body>
-    <header class="nav"><div class="logo" id="home">
-        <a href="index.html" class="schoolName">OMA</a>
-    </div>
-    <nav class="navbar">
+    <header class="nav">
+        <div class="logo" id="home"><a href="index.html" class="schoolName">OMA</a></div>
+        <nav class="navbar">
             <a href="services.html">Services</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
@@ -29,27 +28,41 @@
             <button class="nav-btn btn">Apply Now</button>
         </nav>
     </header>
-   <div id="home">
-    <div class="container">
-        <div class="image">
-            <img src="children-removebg-preview.png" class="img-1">
+    <div id="contact"> <!-- Added Contact Us section -->
+        <div class="contact-form">
+            <!-- Your Contact Form Goes Here -->
+            <h2>Contact Us</h2>
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name.." required>
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="name" name="lastname" placeholder="Your last name.." required>
+            
+                <label for="country">Country</label>
+                <select id="country" id="email" name="country">
+                    <option value="australia">UK</option>
+                    <option value="canada">Nigeria</option>
+                    <option value="usa">USA</option>
+                  
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject message" name="subject" placeholder="Write something.." style="height:50px" required></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
         </div>
-        <div class="home">
-            <h1>READ, WRITE AND SPEAK IN THE RIGHT DICTION</h1>
-            <p><span class="Oma">OMA</span> is a place where we teach both young and old how to read, write, and speak impeccable standard English. In <span class="Oma">OMA</span>, you can feel at home while learning the most important skill that helps <span>YOU</span> thrive in life: Communication skill: The ability to tell people what you are made of. Even if you graduate with a first-class honors, if you can't communicate well, nobody will believe you. Get the best public speaking classes.</p>
-        </div>
+        
     </div>
-    
     <footer>
         <div class="copyright">
             © Copyright 2023 OMA PROFESSIONAL SERVICES
         </div>
         <a href="Omaprofessionalservices@gmail" class="mail">Omaprofessionalservices@gmail</a>
     </footer>
-    </div>
     
-    
-   
-    <script src="index.js"></script>
 </body>
 </html>
