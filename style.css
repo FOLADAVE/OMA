@@ -863,10 +863,9 @@ footer{
     }
     .menu{
     --s: 20px;
-        left: 10px;
+        left: 0px;
     }
     .logo{
         font-size: 1.7rem;
-        left: 50px;
     }
 }
