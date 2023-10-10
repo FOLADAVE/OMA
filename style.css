@@ -863,9 +863,16 @@ footer{
     }
     .menu{
     --s: 20px;
-        left: 0px;
+    left: -30px;
     }
     .logo{
         font-size: 1.7rem;
+        
+    }
+}
+
+@media (max-width: 365px){
+    .logo{
+        font-size: 1.4rem;
     }
 }
