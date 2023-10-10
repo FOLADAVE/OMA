@@ -36,7 +36,7 @@ header.nav{
     text-align: center;
     align-items: center;
     line-height: 80px;
-    height:350%;
+    height:400%;
     background: rgba(128, 128, 128, 0.671);
     border-radius: 5px;
 }
@@ -242,7 +242,7 @@ p span {
 /* Existing CSS for the container */
 #services {
     position: absolute;
-    top: 100%;
+    top: 20%;
     background: #fff;
     width: 100%;
     min-height: 100%;
@@ -356,7 +356,7 @@ h3 {
 
 #about {
     position: absolute;
-    top: 430%;
+    top: 0%;
 }
 .ab-h1{
     position: relative;
@@ -417,7 +417,7 @@ h6{
 /* Additional CSS for the Contact Us section */
 #contact {
     position: absolute;
-    top: 670%;
+    top: 10%;
     left: 20%;
     background-color: #fff; /* Background color for the Contact section */
     padding: 80px 0;
@@ -464,7 +464,7 @@ input[type=text], select, textarea {
 /* Footer styles */
 footer {
     position: absolute;
-    top: 780%;
+    top: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -484,22 +484,22 @@ footer {
 }
 @media (max-width: 1440px){
     #about{
-        top: 300%;
+        top: 0%;
     }
     #contact{
-        top: 470%;
+        top: 10%;
     }
     footer{
-        top: 550%;
+        top: 100%;
     }
 }
 @media (max-width: 1280px){
     #about{
-        top: 330%;
+        top: 20%;
     }
     
     #contact{
-        top: 485%;
+        top: 10%;
     }
     .text{
         max-width: 400px;
@@ -509,7 +509,7 @@ footer {
         left: 110%;
     }
     footer{
-        top: 560%;
+        top: 100%;
     }
 }
 @media (max-width: 1280px){
@@ -519,6 +519,14 @@ footer {
     .group-img{
         left: 100%;
         bottom: -10%;
+    }
+}
+@media (max-width: 1130px){
+    #contact{
+        left: 25%;
+    }
+    .contact-form{
+        max-width: 500px;
     }
 }
 @media (max-width: 1028px){
@@ -533,7 +541,7 @@ footer {
         margin-right: 100px;
     }
     #about{
-        top: 280%;
+        top: 30%;
     }
     .speech-img{
         margin-left: 70px;
@@ -558,7 +566,7 @@ footer {
         left: 90%;
     }
     .contact-form{
-        max-width: 600px;
+        max-width: 500px;
     }
     
 }
@@ -643,24 +651,25 @@ footer {
     .videos{
         left: 20%;
     }
+    
 }
+
 @media (max-width: 690px){
     h2{
         font-size: 1.1rem;
     }
-    /* Common styles for navigation */
-/* ... (Your navigation styles) ... */
-
-/* Media query for max-width 690px */
-
+    .content{
+        position: absolute;
+        top: 100%;
+    }
     #services {
-        position: relative; /* Change position to relative */
-        top: auto; /* Remove top property */
+        position: absolute; 
+        top: 15%; 
         left: 100px;
         background: #fff;
-        min-height: auto; /* Remove min-height property */
-        padding: 20px; /* Adjust padding as needed */
-        text-align: center; /* Center-align text */
+        min-height: auto; 
+        padding: 20px; 
+        text-align: center; 
     }
 
     .content {
@@ -686,6 +695,7 @@ footer {
         position: relative;
         right: 70px;
     }
+
     .abc-img{
         position: relative;
         top: 50px;
@@ -729,7 +739,7 @@ footer {
     }
     #about{
         position: absolute;
-       top: 400%;
+       top: 40%;
     }
     .oth-services{
         position: relative;
@@ -763,7 +773,7 @@ footer {
        left: 65%;
     }
     #contact{
-        top: 560%;
+        top: 10%;
     }
     .contact-form{
         max-width: 550px;
@@ -773,15 +783,15 @@ footer {
         height: 300px;
 }
 footer{
-    top: 630%;
+    top: 100%;
 }
 }
 @media (max-width: 658px){
     #about{
-        top: 385%;
+        top: 40%;
     }
     #contact{
-        top: 540%;
+        top: 10%;
     }
     .contact-form{
         max-width: 500px;
@@ -791,12 +801,12 @@ footer{
         height: 300px;
     }
     footer{
-        top: 610%;
+        top: 100%;
     }
 }
 @media (max-width: 598px){
     #about{
-        top: 372%;
+        top: 40%;
     }
     h1{
         font-size: 1.6rem;
@@ -851,7 +861,7 @@ footer{
         color: #fff;
     }
     #contact{
-        top: 530%;
+        top: 10%;
     }
 }
 @media (max-width: 420px){
@@ -863,7 +873,7 @@ footer{
     }
     .menu{
     --s: 20px;
-    left: -30px;
+    left: 45px;
     }
     .logo{
         font-size: 1.7rem;
