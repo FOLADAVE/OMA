@@ -243,7 +243,7 @@ p span {
 #services {
     position: absolute;
     top: 100%;
-    background: #fcf9f9;
+    background: #fff;
     width: 100%;
     min-height: 100%;
     color: rgb(108, 202, 240);
@@ -863,6 +863,7 @@ footer{
     }
     .menu{
     --s: 20px;
+        left: 10px;
     }
     .logo{
         font-size: 1.7rem;
