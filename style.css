@@ -94,6 +94,10 @@ header.nav{
     transition: .5s ease-in-out;
     
 } 
+.apply{
+    color: rgb(5, 174, 241);
+    
+}
 .menu {
     --s: 35px; /* control the size */
     --c: white; /* the color */
@@ -356,7 +360,7 @@ h3 {
 
 #about {
     position: absolute;
-    top: 0%;
+    top: 20%;
 }
 .ab-h1{
     position: relative;
@@ -484,7 +488,7 @@ footer {
 }
 @media (max-width: 1440px){
     #about{
-        top: 0%;
+        top: 20%;
     }
     #contact{
         top: 10%;
@@ -880,6 +884,7 @@ footer{
         
     }
 }
+
 
 @media (max-width: 365px){
     .logo{
