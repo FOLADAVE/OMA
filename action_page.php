@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "Omaprofessionalservices@gmail";
+    $recipient = "Partnerships@omadiction.pro";
     $subject = "New Contact Form Submission";
     $email_content = "Name: $name\n";
     $email_content .= "Email: $email\n\n";
