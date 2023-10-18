@@ -218,7 +218,7 @@ p span {
 
 .reach img {
     margin-right: 50px; /* Add some spacing between the images and text */
-    width: 20%;
+    width: 15%;
     min-width: 10%;
 }
 h5{
@@ -419,10 +419,10 @@ h6{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    border-radius: 20px;
-    background-color: rgb(1, 8, 37);
+    border-radius: 10px;
+    background-color: #302f2f98;
     padding: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: Lato;
     color: #fff;
 }
 
@@ -435,114 +435,152 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-size: 18px;
+    font-size: 13px;
+    font-family: Lato; font-size: 18px
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: rgb(44, 44, 247);
+    background-color: rgb(2, 2, 71);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: Lato; font-size: 18px
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: rgb(108, 202, 240);
   }
-  
+  option{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+  }
+  #name, textarea{
+    font-family: Lato;
+    font-size: 15px;
+  }
   /* Add a background color and some padding around the form */
-  
-/* Footer styles */
-footer {
+  footer{
     position: absolute;
-    top: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: rgba(0, 0, 43, 0.788);
+    top:150%;
+    left: 0;
+    right: 0;
+    background: #060020fa;
+    height: auto;
+    padding-top: 40px;
     width: 100%;
-    padding: 20px 0;
-    font-weight: 800;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; 
     color: #fff;
-}
-.home-footer{
-    top: 200%;
-}
-.service-footer{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .service-footer{
     top: 350%;
-}
-.about-footer{
+  }
+  .ab-foot{
     top: 280%;
-}
-/* Style for the Facebook icon container */
-
-
-/* Style for the Facebook logo */
-/* Style for the Facebook icon container */
-.facebook-icon {
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 50%;
+  }
+  .cont-foot{
+    top: 120%;
+  }
+  .footer-content{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 90px;
-    transition: .5s ease-in-out;
-}
-.facebook-icon:hover{
-    background-color: #1877F2;
-}
-/* Style for the Facebook logo */
-.f-logo {
-    font-size: 20px;
-    color: #1877F2; /* Facebook's official blue color */
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-}
-.f-logo:hover{
+    flex-direction: column;
+    text-align: center;
+  }
+  .h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .fp{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials li a{
+    text-decoration: none;
     color: #fff;
-}
+    border: 1.1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    width: 35px;
+  }
+  .socials li a:hover{
+    border: 1.5px solid rgb(108, 202, 240);
+    color: rgb(108, 202, 240);
+  }
+  .footer-menu{
+    margin-bottom: 20px;
+  }
+  .footer-menu ul{
+    display: flex;
+  }
+  .footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+  }
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    border: 1.3px solid white;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .footer-menu ul li a:hover{
+    color: rgb(108, 202, 240);
+    border: 1.5px solid rgb(108, 202, 240);
+  }
+  .footer-bottom{
+    background: #030013;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .footer-bottom p{
+    color: #fff;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 14px;
+  }
 
-.bx{
-    font-size: 30px;
-    margin-left: 20px;
-    transition: .5s ease-in-out;
-}
-.bx:hover{
-    opacity: 0.9;
-}
-.bxl-youtube:hover{
-    color: red;
-}
-.bxl-gmail{
-    color: white;
-}
-.bxl-gmail:hover{
-    color: red;
-}
-
-@media (max-width: 1440px){
+  @media (max-width: 1440px){
     #about{
         top: 20%;
     }
     #contact{
         top: 10%;
     }
-    footer{
-        top: 100%;
-    }
+    
     .reach{
         top: 90%;
     }
-    .home-footer{
-        top: 135%;
-    }
+    .service-footer{
+        top: 250%;
+      }
+      .ab-foot{
+        top: 200%;
+      }
 }
 @media (max-width: 1280px){
     #about{
@@ -559,9 +597,12 @@ footer {
     .ab-h1{
         left: 110%;
     }
-    footer{
-        top: 100%;
-    }
+    .service-footer{
+        top: 280%;
+      }
+      .ab-foot{
+        top: 230%;
+      }
 }
 @media (max-width: 1280px){
     .ab-h1, .text{
@@ -571,6 +612,7 @@ footer {
         left: 100%;
         bottom: -10%;
     }
+    
 }
 @media (max-width: 1130px){
     #contact{
@@ -579,14 +621,8 @@ footer {
     .contact-form{
         max-width: 500px;
     }
-    .service-footer{
-        top: 300%;
-    }
-    .about-footer{
-        top: 250%;
-    }
-    .home-footer{
-        top: 125%;
+    footer{
+        top: 130%;
     }
 }
 @media (max-width: 1028px){
@@ -627,21 +663,20 @@ footer {
     }
     .contact-form{
         max-width: 500px;
+        margin-left: 180px;
     }
     .service-footer{
-        top: 230%;
-    }
-    .about-footer{
-        top: 260%;
-    }
+        top: 210%;
+      }
+      .cont-foot{
+        top: 95%;
+      }
 }
 @media (max-width: 900px){
     .reach{
         top: 80%;
     }
-    .home-footer{
-        top: 100%;
-    }
+    
     .logo{
         right: 20px;
     }
@@ -664,6 +699,9 @@ footer {
         left: 70%;
         top: 60%;
         max-width: 70%;
+    }
+    footer{
+        top: 110%;
     }
 }
 @media (max-width: 850px){
@@ -691,7 +729,9 @@ footer {
         visibility: visible;
     --s: 25px;
     }
-    
+    .contact-form{
+        margin-left: 90px;
+    }
 }
 @media (max-width: 765px){
     
@@ -718,7 +758,12 @@ footer {
     .videos{
         left: 20%;
     }
-    
+    .service-footer{
+        top: 190%;
+      }
+      .contact-form{
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 690px){
@@ -729,21 +774,28 @@ footer {
         position: absolute;
         top: 100%;
     }
+    
     #services {
         position: absolute; 
-        top: 15%; 
+        top: 20%; 
         left: 100px;
         background: #fff;
         min-height: auto; 
         padding: 20px; 
         text-align: center; 
     }
-
+    .service-footer{
+        top: 360%;
+      }
+    
     .content {
         margin-top: 20px; /* Adjust margin-top as needed */
         margin-left: 20px; /* Adjust margin-left as needed */
     }
-
+    #services .s-h1{
+        left: 20%;
+        bottom: 5%;
+    }
     .row {
         flex-direction: column; /* Stack rows vertically */
         margin-bottom: 10px; /* Adjust margin-bottom as needed */
@@ -849,17 +901,18 @@ footer {
         width: 400px;
         height: 300px;
 }
-footer{
-    top: 100%;
+.contact-form{
+    margin-left: 0px;
 }
-.service-footer{
-    top: 420%;
-}
-.about-footer{
-    top: 230%;
-}
+
 }
 @media (max-width: 658px){
+    .s-h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     #about{
         top: 40%;
     }
@@ -876,19 +929,18 @@ footer{
     footer{
         top: 100%;
     }
+    .ab-foot{
+        top: 200%;
+      }
+    
+}
+@media (max-width: 598px){
+    
+}
+@media (max-width: 598px){
     .service-footer{
-        top: 400%;
-    }
-    .about-footer{
-        top: 230%;
-    }
-}
-@media (max-width: 598px){
-    .facebook-icon{
-        margin-left: 10px;
-    }
-}
-@media (max-width: 598px){
+        top: 350%;
+      }
     .reach {
         display: flex;
         flex-direction: column; /* Change the flex-direction to column */
@@ -913,9 +965,7 @@ footer{
             position: absolute;   
             left: 30%;
         }
-        .home-footer{
-            top: 175%;
-        }
+        
     #about{
         top: 40%;
     }
@@ -925,26 +975,9 @@ footer{
     .contact-form{
         max-width: 350px;
     }
-    .copyright {
-        margin-bottom: 10px; 
-        margin-left: 30px;
-        font-size: 13px;
-    }
-    .mail{
-        margin-right: 50px;
-    }
-    .about .youtube{
-        width: 370px;
-        height: 300px;
-    }
-    .service-footer{
-        top: 380%;
-    }
-    .service-footer{
-        top: 300%;
-    }
-    .about-footer{
-        top: 230%;
+    
+    footer{
+        top: 170%;
     }
 
 }
@@ -952,24 +985,15 @@ footer{
     .logo{
         right: 70px;
     }
-    .service-footer{
-        top: 380%;
-    }
-    .about-footer{
-        top: 230%;
-    }
-}
-@media (max-width: 532px){
-    .home-footer{
-        top: 155%;
+    .oth-services{
+        position: absolute;
+        top: 90%;
     }
     .service-footer{
-        top: 350%;
-    }
-    .about-footer{
-        top: 230%;
-    }
+        top: 300%;
+      }
 }
+
 @media (max-width: 502px){
     h1{
         font-size: 1.3rem;
@@ -997,21 +1021,16 @@ footer{
     #contact{
         top: 10%;
     }
-    .about-footer{
-        top: 230%;
-    }
-}
-@media (max-width: 480px){
-    .facebook-icon{
-        margin-left: -8px;
-        background-color: transparent;
+    footer{
+        top: 160%;
     }
     .service-footer{
-        top: 330%;
-    }
-    .about-footer{
-        top: 230%;
-    }
+        top: 280%;
+      }
+
+}
+@media (max-width: 480px){
+   
     .home-h1{
         left: 20%;
     }
@@ -1020,8 +1039,17 @@ footer{
     .home-h1{
         top: 75%;
     }
+    .service-footer{
+        top: 265%;
+      }
 }
 @media (max-width: 420px){
+    .serv-nav{
+        margin-right: 50px;
+    }
+    .service-footer{
+        top: 230%;
+      }
     h1.home-h1{
         top: 83%;
     }
@@ -1045,29 +1073,34 @@ footer{
         position: absolute;
         height: 600%;
     }
-    .service-footer{
-        top: 320%;
-    }
-    .about-footer{
-        top: 230%;
-    }
+    
     .home-h1{
         top: 108%;
     }
 }
 @media (max-width: 400px){
-    .home-footer{
-        top: 195%;
-    }
+    
     .reach{
-        top: 120%;
+        top: 115%;
     }
     h1.home-h1{
-        top: 110%;
+        top: 100%;
     }
+    footer{
+        top: 190%;
+    }
+    .service-footer{
+        top: 305%;
+      }
+      .ab-foot{
+        top: 240%;
+      }
 }
 
 @media (max-width: 365px){
+    .serv-nav{
+        margin-right: 0px;
+    }
     .reach{
         top: 100%;
     }
@@ -1080,10 +1113,13 @@ footer{
     .nav-bar{
         right: 25%;
     }
+    footer{
+        top: 170%;
+    }
     .service-footer{
-        top: 310%;
-    }
-    .about-footer{
-        top: 230%;
-    }
+        top: 265%;
+      }
+      .ab-foot{
+        top: 210%;
+      }
 }
