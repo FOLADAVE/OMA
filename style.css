@@ -468,7 +468,7 @@ input[type=text], select, textarea {
     top:150%;
     left: 0;
     right: 0;
-    background: #060020fa;
+    background: rgb(108, 202, 240);
     height: auto;
     padding-top: 40px;
     width: 100%;
@@ -502,6 +502,7 @@ input[type=text], select, textarea {
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+    color: #fff;
   }
   .socials{
     list-style: none;
@@ -520,10 +521,11 @@ input[type=text], select, textarea {
     padding: 8px;
     border-radius: 50%;
     width: 35px;
+    transition: .5s;
   }
   .socials li a:hover{
     border: 1.5px solid rgb(108, 202, 240);
-    color: rgb(108, 202, 240);
+    color: #fff;
   }
   .footer-menu{
     margin-bottom: 20px;
@@ -536,18 +538,20 @@ input[type=text], select, textarea {
     display: block;
   }
   .footer-menu ul li a{
-    color: #cfd2d6;
+    color: #fff;
     border: 1.3px solid white;
     padding: 6px 15px;
     text-decoration: none;
     border-radius: 10px;
+    transition: .5s;
   }
   .footer-menu ul li a:hover{
-    color: rgb(108, 202, 240);
-    border: 1.5px solid rgb(108, 202, 240);
+    color: #fff;
+    border: none;
+    transition: .5s;
   }
   .footer-bottom{
-    background: #030013;
+    background: rgb(60, 186, 236);
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -571,13 +575,15 @@ input[type=text], select, textarea {
     #contact{
         top: 10%;
     }
-    
-    .reach{
+    .home-h1{
         top: 90%;
+    }
+    .reach{
+        top: 110%;
     }
     .service-footer{
         top: 250%;
-      }
+    }
       .ab-foot{
         top: 200%;
       }
