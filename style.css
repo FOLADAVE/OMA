@@ -17,7 +17,7 @@ header.nav{
     left: 0;
     width: 100%;
     padding: 25px 100px;
-    background: rgb(108, 202, 240);
+    background: rgb(1, 1, 41);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +78,7 @@ header.nav{
 }
   
 .apply{
-    color: rgb(5, 174, 241);
+    color: rgb(1, 1, 41);
     
 }
 .menu {
@@ -468,7 +468,7 @@ input[type=text], select, textarea {
     top:150%;
     left: 0;
     right: 0;
-    background: rgb(108, 202, 240);
+    background: rgb(1, 1, 41);
     height: auto;
     padding-top: 40px;
     width: 100%;
@@ -551,7 +551,7 @@ input[type=text], select, textarea {
     transition: .5s;
   }
   .footer-bottom{
-    background: rgb(60, 186, 236);
+    background: rgb(0, 0, 26);
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -681,6 +681,8 @@ input[type=text], select, textarea {
 @media (max-width: 900px){
     .reach{
         top: 80%;
+    }.home-h1{
+        top: 65%;
     }
     
     .logo{
@@ -718,7 +720,7 @@ input[type=text], select, textarea {
         text-align: center;
         line-height: 80px;
         height: 300%;
-        background:rgb(108, 202, 240);
+        background:rgb(1, 1, 41);
         border-radius: 0px;
     }
     
