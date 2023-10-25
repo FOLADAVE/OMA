@@ -17,7 +17,7 @@ header.nav{
     left: 0;
     width: 100%;
     padding: 25px 100px;
-    background: rgb(1, 1, 41);
+    background: #060020fa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +78,7 @@ header.nav{
 }
   
 .apply{
-    color: rgb(1, 1, 41);
+    color: #060020fa;;
     
 }
 .menu {
@@ -468,7 +468,7 @@ input[type=text], select, textarea {
     top:150%;
     left: 0;
     right: 0;
-    background: rgb(1, 1, 41);
+    background: #060020fa;
     height: auto;
     padding-top: 40px;
     width: 100%;
@@ -551,7 +551,7 @@ input[type=text], select, textarea {
     transition: .5s;
   }
   .footer-bottom{
-    background: rgb(0, 0, 26);
+    background: #030013;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -720,7 +720,7 @@ input[type=text], select, textarea {
         text-align: center;
         line-height: 80px;
         height: 300%;
-        background:rgb(1, 1, 41);
+        background:#060020fa;
         border-radius: 0px;
     }
     
